@@ -3,6 +3,7 @@ import path from "node:path";
 
 import { IndividualsTable } from "@/components/individuals-table";
 import { TopNav } from "@/components/nav";
+import { loadStore } from "@/lib/prospecting-store";
 
 type Row = Record<string, string>;
 
@@ -83,17 +84,29 @@ export default function IndividualsPage() {
 
   const usRows = rows.filter((r) => US_STATES.has((r.STATEORCOUNTRY || "").toUpperCase()));
 
+  const store = loadStore();
+
+  const keyFor = (r: Row) =>
+    [r.ACCESSION_NUMBER, r.NAME, r.CITY, r.STATEORCOUNTRY, r.SIGNATUREDATE]
+      .filter(Boolean)
+      .join("|");
+
   // Normalize keys for client component typing
-  const typed = usRows.map((r) => ({
-    ACCESSION_NUMBER: r.ACCESSION_NUMBER || "",
-    NAME: r.NAME || "",
-    TITLE: r.TITLE || "",
-    PHONE: r.PHONE || "",
-    SIGNATURE: r.SIGNATURE || "",
-    CITY: r.CITY || "",
-    STATEORCOUNTRY: (r.STATEORCOUNTRY || "").toUpperCase(),
-    SIGNATUREDATE: r.SIGNATUREDATE || "",
-  }));
+  const typed = usRows.map((r) => {
+    const key = keyFor(r);
+    return {
+      ACCESSION_NUMBER: r.ACCESSION_NUMBER || "",
+      NAME: r.NAME || "",
+      TITLE: r.TITLE || "",
+      PHONE: r.PHONE || "",
+      SIGNATURE: r.SIGNATURE || "",
+      CITY: r.CITY || "",
+      STATEORCOUNTRY: (r.STATEORCOUNTRY || "").toUpperCase(),
+      SIGNATUREDATE: r.SIGNATUREDATE || "",
+      __key: key,
+      __meta: store[key],
+    };
+  });
 
   const states = Array.from(
     new Set(typed.map((r) => r.STATEORCOUNTRY).filter(Boolean))

@@ -2,6 +2,11 @@
 
 import { useMemo, useState } from "react";
 
+type Meta = {
+  advisor: string;
+  called: boolean;
+};
+
 type Row = {
   ACCESSION_NUMBER: string;
   NAME: string;
@@ -11,7 +16,11 @@ type Row = {
   CITY: string;
   STATEORCOUNTRY: string;
   SIGNATUREDATE: string;
+  __key: string;
+  __meta?: Meta;
 };
+
+import { ProspectingControls } from "@/components/prospecting-columns";
 
 export function IndividualsTable({
   rows,
@@ -23,8 +32,8 @@ export function IndividualsTable({
   const [state, setState] = useState<string>("");
 
   const filtered = useMemo(() => {
-    if (!state) return rows;
-    return rows.filter((r) => r.STATEORCOUNTRY === state);
+    const base = !state ? rows : rows.filter((r) => r.STATEORCOUNTRY === state);
+    return base.slice(0, 100);
   }, [rows, state]);
 
   return (
@@ -50,7 +59,8 @@ export function IndividualsTable({
         </div>
 
         <div className="text-sm text-black/60">
-          Rows: <span className="font-semibold text-black">{filtered.length}</span>
+          Showing: <span className="font-semibold text-black">{filtered.length}</span>
+          <span className="text-black/40"> (max 100)</span>
         </div>
       </div>
 
@@ -59,6 +69,8 @@ export function IndividualsTable({
           <table className="w-full border-collapse text-sm">
             <thead className="bg-black/5 text-left">
               <tr>
+                <th className="px-3 py-3 font-semibold">Adviser</th>
+                <th className="px-3 py-3 font-semibold">Called</th>
                 <th className="px-4 py-3 font-semibold">Name</th>
                 <th className="px-4 py-3 font-semibold">Title</th>
                 <th className="px-4 py-3 font-semibold">City</th>
@@ -69,10 +81,8 @@ export function IndividualsTable({
             </thead>
             <tbody>
               {filtered.map((r) => (
-                <tr
-                  key={`${r.ACCESSION_NUMBER}-${r.NAME}-${r.SIGNATUREDATE}`}
-                  className="border-t border-black/5"
-                >
+                <tr key={r.__key} className="border-t border-black/5 align-top">
+                  <ProspectingControls rowKey={r.__key} initial={r.__meta} />
                   <td className="px-4 py-3 font-semibold text-black/90">
                     {r.NAME || "—"}
                   </td>
