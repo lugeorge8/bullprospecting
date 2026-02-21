@@ -2,18 +2,9 @@
 
 import { useMemo, useState } from "react";
 
-type Meta = {
-  advisor: string;
-  called: boolean;
-};
+import type { ProspectMeta as Meta } from "@/lib/types";
 
-const DEFAULT_ADVISERS = [
-  "",
-  "Advisor 1",
-  "Advisor 2",
-  "Advisor 3",
-  "Advisor 4",
-] as const;
+const DEFAULT_ADVISERS = ["", "Val", "Nick"] as const;
 
 async function updateMeta(key: string, patch: Partial<Meta>) {
   const res = await fetch("/api/prospecting", {
@@ -42,6 +33,7 @@ export function ProspectingControls({
 }) {
   const [advisor, setAdvisor] = useState(initial?.advisor ?? "");
   const [called, setCalled] = useState(initial?.called ?? false);
+  const [scrubbed, setScrubbed] = useState(initial?.scrubbed ?? false);
   const [saving, setSaving] = useState(false);
 
   const advisorLabel = useMemo(
@@ -101,6 +93,28 @@ export function ProspectingControls({
         >
           {called ? "Called" : "Mark called"}
         </button>
+      </td>
+
+      {/* Scrubbed checkbox */}
+      <td className="px-3 py-3">
+        <label className="inline-flex items-center gap-2 text-xs text-black/70">
+          <input
+            type="checkbox"
+            className="h-4 w-4 rounded border-black/20"
+            checked={scrubbed}
+            onChange={async (e) => {
+              const next = e.target.checked;
+              setScrubbed(next);
+              setSaving(true);
+              try {
+                await updateMeta(rowKey, { scrubbed: next });
+              } finally {
+                setSaving(false);
+              }
+            }}
+          />
+          Scrubbed
+        </label>
       </td>
     </>
   );

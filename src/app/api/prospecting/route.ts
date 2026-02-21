@@ -6,6 +6,7 @@ type Body = {
   key: string;
   advisor?: string;
   called?: boolean;
+  scrubbed?: boolean;
 };
 
 export async function POST(req: Request) {
@@ -26,6 +27,7 @@ export async function POST(req: Request) {
   const next = upsertMeta(body.key, {
     advisor: typeof body.advisor === "string" ? body.advisor : undefined,
     called: typeof body.called === "boolean" ? body.called : undefined,
+    scrubbed: typeof body.scrubbed === "boolean" ? body.scrubbed : undefined,
   });
 
   return NextResponse.json({ ok: true, meta: next });

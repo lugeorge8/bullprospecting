@@ -124,7 +124,7 @@ export default function IndividualsPage() {
           </p>
         </div>
 
-        <IndividualsTable rows={typed} states={states} />
+        <IndividualsTable rows={typed} states={states} advisers={["", "Val", "Nick"]} />
       </main>
     </div>
   );

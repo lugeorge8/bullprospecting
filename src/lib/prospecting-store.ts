@@ -1,11 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-export type ProspectMeta = {
-  advisor: string; // who is assigned to call
-  called: boolean; // has been called
-  updatedAt: number; // ms epoch
-};
+import type { ProspectMeta } from "@/lib/types";
 
 export type ProspectingStore = Record<string, ProspectMeta>;
 
@@ -40,11 +36,13 @@ export function upsertMeta(key: string, patch: Partial<ProspectMeta>) {
   const cur: ProspectMeta = store[key] ?? {
     advisor: "",
     called: false,
+    scrubbed: false,
     updatedAt: Date.now(),
   };
   const next: ProspectMeta = {
     advisor: patch.advisor ?? cur.advisor,
     called: patch.called ?? cur.called,
+    scrubbed: patch.scrubbed ?? cur.scrubbed,
     updatedAt: Date.now(),
   };
   store[key] = next;

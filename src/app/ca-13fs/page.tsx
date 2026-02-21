@@ -5,12 +5,9 @@ import { TopNav } from "@/components/nav";
 import { ProspectingControls } from "@/components/prospecting-columns";
 import { loadStore } from "@/lib/prospecting-store";
 
-type Row = Record<string, string>;
+import type { ProspectMeta as Meta } from "@/lib/types";
 
-type Meta = {
-  advisor: string;
-  called: boolean;
-};
+type Row = Record<string, string>;
 
 function parseTsv(tsv: string): Row[] {
   const lines = tsv.split(/\r?\n/).filter(Boolean);
@@ -86,6 +83,7 @@ export default function Ca13fsPage() {
                 <tr>
                   <th className="px-3 py-3 font-semibold">Adviser</th>
                   <th className="px-3 py-3 font-semibold">Called</th>
+                  <th className="px-3 py-3 font-semibold">Scrubbed</th>
                   <th className="px-4 py-3 font-semibold">Manager</th>
                   <th className="px-4 py-3 font-semibold">City</th>
                   <th className="px-4 py-3 font-semibold">Quarter</th>
@@ -102,7 +100,7 @@ export default function Ca13fsPage() {
                       key={key}
                       className="border-t border-black/5 align-top"
                     >
-                      <ProspectingControls rowKey={key} initial={meta} />
+                      <ProspectingControls rowKey={key} initial={meta} advisers={["", "Val", "Nick"]} />
 
                       <td className="px-4 py-3">
                         <div className="font-semibold text-black/90">

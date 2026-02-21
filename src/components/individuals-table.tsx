@@ -2,10 +2,7 @@
 
 import { useMemo, useState } from "react";
 
-type Meta = {
-  advisor: string;
-  called: boolean;
-};
+import type { ProspectMeta as Meta } from "@/lib/types";
 
 type Row = {
   ACCESSION_NUMBER: string;
@@ -25,37 +22,59 @@ import { ProspectingControls } from "@/components/prospecting-columns";
 export function IndividualsTable({
   rows,
   states,
+  advisers,
 }: {
   rows: Row[];
   states: string[];
+  advisers: string[];
 }) {
   const [state, setState] = useState<string>("");
+  const [advisor, setAdvisor] = useState<string>("");
 
   const filtered = useMemo(() => {
-    const base = !state ? rows : rows.filter((r) => r.STATEORCOUNTRY === state);
+    let base = !state ? rows : rows.filter((r) => r.STATEORCOUNTRY === state);
+    if (advisor) base = base.filter((r) => (r.__meta?.advisor ?? "") === advisor);
     return base.slice(0, 100);
-  }, [rows, state]);
+  }, [rows, state, advisor]);
 
   return (
     <div>
       <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <div className="text-sm font-semibold text-black/80">Filter</div>
-          <label className="mt-2 flex items-center gap-2 text-sm text-black/70">
-            State:
-            <select
-              className="rounded-xl border border-black/10 bg-white px-3 py-2 text-sm"
-              value={state}
-              onChange={(e) => setState(e.target.value)}
-            >
-              <option value="">All</option>
-              {states.map((s) => (
-                <option key={s} value={s}>
-                  {s}
-                </option>
-              ))}
-            </select>
-          </label>
+          <div className="mt-2 flex flex-col gap-2 sm:flex-row sm:items-center">
+            <label className="flex items-center gap-2 text-sm text-black/70">
+              State:
+              <select
+                className="rounded-xl border border-black/10 bg-white px-3 py-2 text-sm"
+                value={state}
+                onChange={(e) => setState(e.target.value)}
+              >
+                <option value="">All</option>
+                {states.map((s) => (
+                  <option key={s} value={s}>
+                    {s}
+                  </option>
+                ))}
+              </select>
+            </label>
+
+            <label className="flex items-center gap-2 text-sm text-black/70">
+              Adviser:
+              <select
+                className="rounded-xl border border-black/10 bg-white px-3 py-2 text-sm"
+                value={advisor}
+                onChange={(e) => setAdvisor(e.target.value)}
+              >
+                <option value="">All</option>
+                {advisers.filter(Boolean).map((a) => (
+                  <option key={a} value={a}>
+                    {a}
+                  </option>
+                ))}
+              </select>
+            </label>
+          </div>
         </div>
 
         <div className="text-sm text-black/60">
@@ -71,6 +90,7 @@ export function IndividualsTable({
               <tr>
                 <th className="px-3 py-3 font-semibold">Adviser</th>
                 <th className="px-3 py-3 font-semibold">Called</th>
+                <th className="px-3 py-3 font-semibold">Scrubbed</th>
                 <th className="px-4 py-3 font-semibold">Name</th>
                 <th className="px-4 py-3 font-semibold">Title</th>
                 <th className="px-4 py-3 font-semibold">City</th>
@@ -82,7 +102,7 @@ export function IndividualsTable({
             <tbody>
               {filtered.map((r) => (
                 <tr key={r.__key} className="border-t border-black/5 align-top">
-                  <ProspectingControls rowKey={r.__key} initial={r.__meta} />
+                  <ProspectingControls rowKey={r.__key} initial={r.__meta} advisers={advisers} />
                   <td className="px-4 py-3 font-semibold text-black/90">
                     {r.NAME || "—"}
                   </td>
