@@ -124,8 +124,13 @@ export function IndividualsTable({
                 PHONE: r.PHONE,
                 SIGNATUREDATE: r.SIGNATUREDATE,
                 ADVISER: r.__meta?.advisor ?? "",
+                LEAD_STATUS: r.__meta?.leadStatus ?? "",
                 CALLED: (r.__meta?.called ?? false) ? "yes" : "no",
                 SCRUBBED: (r.__meta?.scrubbed ?? false) ? "yes" : "no",
+                EMAIL: r.__meta?.email ?? "",
+                WEBSITE: r.__meta?.website ?? "",
+                NEXT_FOLLOW_UP: r.__meta?.nextFollowUp ?? "",
+                NOTES: r.__meta?.notes ?? "",
               }));
               downloadCsv(
                 `13f-individuals-${advisor || "all"}-${state || "all"}.csv`,

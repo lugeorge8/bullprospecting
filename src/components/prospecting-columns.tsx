@@ -34,6 +34,13 @@ export function ProspectingControls({
   const [advisor, setAdvisor] = useState(initial?.advisor ?? "");
   const [called, setCalled] = useState(initial?.called ?? false);
   const [scrubbed, setScrubbed] = useState(initial?.scrubbed ?? false);
+
+  const [email, setEmail] = useState(initial?.email ?? "");
+  const [website, setWebsite] = useState(initial?.website ?? "");
+  const [notes, setNotes] = useState(initial?.notes ?? "");
+  const [nextFollowUp, setNextFollowUp] = useState(initial?.nextFollowUp ?? "");
+  const [leadStatus, setLeadStatus] = useState(initial?.leadStatus ?? "New");
+
   const [saving, setSaving] = useState(false);
 
   const advisorLabel = useMemo(
@@ -76,16 +83,47 @@ export function ProspectingControls({
           <summary className="cursor-pointer list-none rounded-xl border border-black/10 bg-white px-3 py-2 text-xs font-semibold text-black/70 hover:bg-black/5">
             <span>Status</span>
             <span className="ml-2 text-[10px] font-semibold">
-              {called ? "• Called" : "• Not called"}
+              {leadStatus ? `• ${leadStatus}` : ""}
+              {called ? " • Called" : ""}
               {scrubbed ? " • Scrubbed" : ""}
             </span>
           </summary>
 
-          <div className="mt-2 w-56 rounded-2xl border border-black/10 bg-white p-3 shadow-sm">
+          <div className="mt-2 w-72 rounded-2xl border border-black/10 bg-white p-3 shadow-sm">
+            <label className="block text-xs font-semibold text-black/70">
+              Lead status
+              <select
+                className="mt-1 w-full rounded-xl border border-black/10 bg-white px-3 py-2 text-xs"
+                value={leadStatus}
+                onChange={async (e) => {
+                  const next = e.target.value;
+                  setLeadStatus(next);
+                  setSaving(true);
+                  try {
+                    await updateMeta(rowKey, { leadStatus: next });
+                  } finally {
+                    setSaving(false);
+                  }
+                }}
+              >
+                {[
+                  "New",
+                  "Researching",
+                  "Contacted",
+                  "Not interested",
+                  "Converted",
+                ].map((s) => (
+                  <option key={s} value={s}>
+                    {s}
+                  </option>
+                ))}
+              </select>
+            </label>
+
             <button
               type="button"
               className={
-                "w-full rounded-xl px-3 py-2 text-xs font-semibold transition " +
+                "mt-3 w-full rounded-xl px-3 py-2 text-xs font-semibold transition " +
                 (called
                   ? "bg-emerald-600 text-white hover:bg-emerald-700"
                   : "border border-black/10 bg-white text-black/70 hover:bg-black/5")
@@ -122,6 +160,82 @@ export function ProspectingControls({
               />
               Scrubbed
             </label>
+
+            <div className="mt-3 grid grid-cols-1 gap-2">
+              <label className="text-xs font-semibold text-black/70">
+                Email
+                <input
+                  className="mt-1 w-full rounded-xl border border-black/10 bg-white px-3 py-2 text-xs"
+                  placeholder="name@domain.com"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  onBlur={async () => {
+                    setSaving(true);
+                    try {
+                      await updateMeta(rowKey, { email });
+                    } finally {
+                      setSaving(false);
+                    }
+                  }}
+                />
+              </label>
+
+              <label className="text-xs font-semibold text-black/70">
+                Website
+                <input
+                  className="mt-1 w-full rounded-xl border border-black/10 bg-white px-3 py-2 text-xs"
+                  placeholder="https://…"
+                  value={website}
+                  onChange={(e) => setWebsite(e.target.value)}
+                  onBlur={async () => {
+                    setSaving(true);
+                    try {
+                      await updateMeta(rowKey, { website });
+                    } finally {
+                      setSaving(false);
+                    }
+                  }}
+                />
+              </label>
+
+              <label className="text-xs font-semibold text-black/70">
+                Next follow-up
+                <input
+                  type="date"
+                  className="mt-1 w-full rounded-xl border border-black/10 bg-white px-3 py-2 text-xs"
+                  value={nextFollowUp}
+                  onChange={async (e) => {
+                    const next = e.target.value;
+                    setNextFollowUp(next);
+                    setSaving(true);
+                    try {
+                      await updateMeta(rowKey, { nextFollowUp: next });
+                    } finally {
+                      setSaving(false);
+                    }
+                  }}
+                />
+              </label>
+
+              <label className="text-xs font-semibold text-black/70">
+                Notes
+                <textarea
+                  className="mt-1 w-full resize-none rounded-xl border border-black/10 bg-white px-3 py-2 text-xs"
+                  rows={3}
+                  placeholder="Quick notes…"
+                  value={notes}
+                  onChange={(e) => setNotes(e.target.value)}
+                  onBlur={async () => {
+                    setSaving(true);
+                    try {
+                      await updateMeta(rowKey, { notes });
+                    } finally {
+                      setSaving(false);
+                    }
+                  }}
+                />
+              </label>
+            </div>
 
             <div className="mt-2 text-[10px] text-black/40">
               {saving ? "Saving…" : ""}

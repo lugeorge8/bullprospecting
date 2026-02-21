@@ -37,12 +37,22 @@ export function upsertMeta(key: string, patch: Partial<ProspectMeta>) {
     advisor: "",
     called: false,
     scrubbed: false,
+    email: "",
+    website: "",
+    notes: "",
+    nextFollowUp: "",
+    leadStatus: "New",
     updatedAt: Date.now(),
   };
   const next: ProspectMeta = {
     advisor: patch.advisor ?? cur.advisor,
     called: patch.called ?? cur.called,
     scrubbed: patch.scrubbed ?? cur.scrubbed,
+    email: patch.email ?? cur.email,
+    website: patch.website ?? cur.website,
+    notes: patch.notes ?? cur.notes,
+    nextFollowUp: patch.nextFollowUp ?? cur.nextFollowUp,
+    leadStatus: patch.leadStatus ?? cur.leadStatus,
     updatedAt: Date.now(),
   };
   store[key] = next;

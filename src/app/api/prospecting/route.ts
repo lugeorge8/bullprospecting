@@ -7,6 +7,11 @@ type Body = {
   advisor?: string;
   called?: boolean;
   scrubbed?: boolean;
+  email?: string;
+  website?: string;
+  notes?: string;
+  nextFollowUp?: string;
+  leadStatus?: string;
 };
 
 export async function POST(req: Request) {
@@ -28,6 +33,11 @@ export async function POST(req: Request) {
     advisor: typeof body.advisor === "string" ? body.advisor : undefined,
     called: typeof body.called === "boolean" ? body.called : undefined,
     scrubbed: typeof body.scrubbed === "boolean" ? body.scrubbed : undefined,
+    email: typeof body.email === "string" ? body.email : undefined,
+    website: typeof body.website === "string" ? body.website : undefined,
+    notes: typeof body.notes === "string" ? body.notes : undefined,
+    nextFollowUp: typeof body.nextFollowUp === "string" ? body.nextFollowUp : undefined,
+    leadStatus: typeof body.leadStatus === "string" ? body.leadStatus : undefined,
   });
 
   return NextResponse.json({ ok: true, meta: next });
