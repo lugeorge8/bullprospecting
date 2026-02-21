@@ -81,12 +81,19 @@ export function ProspectingControls({
       <td className="px-3 py-3">
         <details className="group">
           <summary className="cursor-pointer list-none rounded-xl border border-black/10 bg-white px-3 py-2 text-xs font-semibold text-black/70 hover:bg-black/5">
-            <span>Status</span>
-            <span className="ml-2 text-[10px] font-semibold">
-              {leadStatus ? `• ${leadStatus}` : ""}
-              {called ? " • Called" : ""}
-              {scrubbed ? " • Scrubbed" : ""}
-            </span>
+            <div className="flex items-center justify-between gap-3">
+              <div className="min-w-0">
+                <span className="font-semibold">Status</span>
+                <span className="ml-2 text-[10px] font-semibold text-black/50">
+                  {leadStatus ? `• ${leadStatus}` : ""}
+                  {called ? " • Called" : ""}
+                  {scrubbed ? " • Scrubbed" : ""}
+                </span>
+              </div>
+              <span className="shrink-0 text-black/40 transition group-open:rotate-180">
+                ▾
+              </span>
+            </div>
           </summary>
 
           <div className="mt-2 w-[420px] max-w-[80vw] rounded-2xl border border-black/10 bg-white p-3 shadow-sm">
