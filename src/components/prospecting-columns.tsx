@@ -89,155 +89,181 @@ export function ProspectingControls({
             </span>
           </summary>
 
-          <div className="mt-2 w-72 rounded-2xl border border-black/10 bg-white p-3 shadow-sm">
-            <label className="block text-xs font-semibold text-black/70">
-              Lead status
-              <select
-                className="mt-1 w-full rounded-xl border border-black/10 bg-white px-3 py-2 text-xs"
-                value={leadStatus}
-                onChange={async (e) => {
-                  const next = e.target.value;
-                  setLeadStatus(next);
-                  setSaving(true);
-                  try {
-                    await updateMeta(rowKey, { leadStatus: next });
-                  } finally {
-                    setSaving(false);
-                  }
-                }}
-              >
-                {[
-                  "New",
-                  "Researching",
-                  "Contacted",
-                  "Not interested",
-                  "Converted",
-                ].map((s) => (
-                  <option key={s} value={s}>
-                    {s}
-                  </option>
-                ))}
-              </select>
-            </label>
+          <div className="mt-2 w-[420px] max-w-[80vw] rounded-2xl border border-black/10 bg-white p-3 shadow-sm">
+            <table className="w-full border-separate border-spacing-y-2 text-xs">
+              <tbody>
+                <tr>
+                  <td className="w-32 pr-3 align-top font-semibold text-black/70">
+                    Lead status
+                  </td>
+                  <td>
+                    <select
+                      className="w-full rounded-xl border border-black/10 bg-white px-3 py-2 text-xs"
+                      value={leadStatus}
+                      onChange={async (e) => {
+                        const next = e.target.value;
+                        setLeadStatus(next);
+                        setSaving(true);
+                        try {
+                          await updateMeta(rowKey, { leadStatus: next });
+                        } finally {
+                          setSaving(false);
+                        }
+                      }}
+                    >
+                      {[
+                        "New",
+                        "Researching",
+                        "Contacted",
+                        "Not interested",
+                        "Converted",
+                      ].map((s) => (
+                        <option key={s} value={s}>
+                          {s}
+                        </option>
+                      ))}
+                    </select>
+                  </td>
+                </tr>
 
-            <button
-              type="button"
-              className={
-                "mt-3 w-full rounded-xl px-3 py-2 text-xs font-semibold transition " +
-                (called
-                  ? "bg-emerald-600 text-white hover:bg-emerald-700"
-                  : "border border-black/10 bg-white text-black/70 hover:bg-black/5")
-              }
-              onClick={async () => {
-                const next = !called;
-                setCalled(next);
-                setSaving(true);
-                try {
-                  await updateMeta(rowKey, { called: next });
-                } finally {
-                  setSaving(false);
-                }
-              }}
-            >
-              {called ? "Called" : "Mark called"}
-            </button>
+                <tr>
+                  <td className="pr-3 align-top font-semibold text-black/70">Called</td>
+                  <td>
+                    <button
+                      type="button"
+                      className={
+                        "w-full rounded-xl px-3 py-2 text-xs font-semibold transition " +
+                        (called
+                          ? "bg-emerald-600 text-white hover:bg-emerald-700"
+                          : "border border-black/10 bg-white text-black/70 hover:bg-black/5")
+                      }
+                      onClick={async () => {
+                        const next = !called;
+                        setCalled(next);
+                        setSaving(true);
+                        try {
+                          await updateMeta(rowKey, { called: next });
+                        } finally {
+                          setSaving(false);
+                        }
+                      }}
+                    >
+                      {called ? "Called" : "Mark called"}
+                    </button>
+                  </td>
+                </tr>
 
-            <label className="mt-3 flex items-center gap-2 text-xs text-black/70">
-              <input
-                type="checkbox"
-                className="h-4 w-4 rounded border-black/20"
-                checked={scrubbed}
-                onChange={async (e) => {
-                  const next = e.target.checked;
-                  setScrubbed(next);
-                  setSaving(true);
-                  try {
-                    await updateMeta(rowKey, { scrubbed: next });
-                  } finally {
-                    setSaving(false);
-                  }
-                }}
-              />
-              Scrubbed
-            </label>
+                <tr>
+                  <td className="pr-3 align-top font-semibold text-black/70">Scrubbed</td>
+                  <td>
+                    <label className="inline-flex items-center gap-2 text-xs text-black/70">
+                      <input
+                        type="checkbox"
+                        className="h-4 w-4 rounded border-black/20"
+                        checked={scrubbed}
+                        onChange={async (e) => {
+                          const next = e.target.checked;
+                          setScrubbed(next);
+                          setSaving(true);
+                          try {
+                            await updateMeta(rowKey, { scrubbed: next });
+                          } finally {
+                            setSaving(false);
+                          }
+                        }}
+                      />
+                      Mark scrubbed
+                    </label>
+                  </td>
+                </tr>
 
-            <div className="mt-3 grid grid-cols-1 gap-2">
-              <label className="text-xs font-semibold text-black/70">
-                Email
-                <input
-                  className="mt-1 w-full rounded-xl border border-black/10 bg-white px-3 py-2 text-xs"
-                  placeholder="name@domain.com"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  onBlur={async () => {
-                    setSaving(true);
-                    try {
-                      await updateMeta(rowKey, { email });
-                    } finally {
-                      setSaving(false);
-                    }
-                  }}
-                />
-              </label>
+                <tr>
+                  <td className="pr-3 align-top font-semibold text-black/70">Email</td>
+                  <td>
+                    <input
+                      className="w-full rounded-xl border border-black/10 bg-white px-3 py-2 text-xs"
+                      placeholder="name@domain.com"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      onBlur={async () => {
+                        setSaving(true);
+                        try {
+                          await updateMeta(rowKey, { email });
+                        } finally {
+                          setSaving(false);
+                        }
+                      }}
+                    />
+                  </td>
+                </tr>
 
-              <label className="text-xs font-semibold text-black/70">
-                Website
-                <input
-                  className="mt-1 w-full rounded-xl border border-black/10 bg-white px-3 py-2 text-xs"
-                  placeholder="https://…"
-                  value={website}
-                  onChange={(e) => setWebsite(e.target.value)}
-                  onBlur={async () => {
-                    setSaving(true);
-                    try {
-                      await updateMeta(rowKey, { website });
-                    } finally {
-                      setSaving(false);
-                    }
-                  }}
-                />
-              </label>
+                <tr>
+                  <td className="pr-3 align-top font-semibold text-black/70">Website</td>
+                  <td>
+                    <input
+                      className="w-full rounded-xl border border-black/10 bg-white px-3 py-2 text-xs"
+                      placeholder="https://…"
+                      value={website}
+                      onChange={(e) => setWebsite(e.target.value)}
+                      onBlur={async () => {
+                        setSaving(true);
+                        try {
+                          await updateMeta(rowKey, { website });
+                        } finally {
+                          setSaving(false);
+                        }
+                      }}
+                    />
+                  </td>
+                </tr>
 
-              <label className="text-xs font-semibold text-black/70">
-                Next follow-up
-                <input
-                  type="date"
-                  className="mt-1 w-full rounded-xl border border-black/10 bg-white px-3 py-2 text-xs"
-                  value={nextFollowUp}
-                  onChange={async (e) => {
-                    const next = e.target.value;
-                    setNextFollowUp(next);
-                    setSaving(true);
-                    try {
-                      await updateMeta(rowKey, { nextFollowUp: next });
-                    } finally {
-                      setSaving(false);
-                    }
-                  }}
-                />
-              </label>
+                <tr>
+                  <td className="pr-3 align-top font-semibold text-black/70">
+                    Next follow-up
+                  </td>
+                  <td>
+                    <input
+                      type="date"
+                      className="w-full rounded-xl border border-black/10 bg-white px-3 py-2 text-xs"
+                      value={nextFollowUp}
+                      onChange={async (e) => {
+                        const next = e.target.value;
+                        setNextFollowUp(next);
+                        setSaving(true);
+                        try {
+                          await updateMeta(rowKey, { nextFollowUp: next });
+                        } finally {
+                          setSaving(false);
+                        }
+                      }}
+                    />
+                  </td>
+                </tr>
 
-              <label className="text-xs font-semibold text-black/70">
-                Notes
-                <textarea
-                  className="mt-1 w-full resize-none rounded-xl border border-black/10 bg-white px-3 py-2 text-xs"
-                  rows={3}
-                  placeholder="Quick notes…"
-                  value={notes}
-                  onChange={(e) => setNotes(e.target.value)}
-                  onBlur={async () => {
-                    setSaving(true);
-                    try {
-                      await updateMeta(rowKey, { notes });
-                    } finally {
-                      setSaving(false);
-                    }
-                  }}
-                />
-              </label>
-            </div>
+                <tr>
+                  <td className="pr-3 align-top font-semibold text-black/70">Notes</td>
+                  <td>
+                    <textarea
+                      className="w-full resize-none rounded-xl border border-black/10 bg-white px-3 py-2 text-xs"
+                      rows={3}
+                      placeholder="Quick notes…"
+                      value={notes}
+                      onChange={(e) => setNotes(e.target.value)}
+                      onBlur={async () => {
+                        setSaving(true);
+                        try {
+                          await updateMeta(rowKey, { notes });
+                        } finally {
+                          setSaving(false);
+                        }
+                      }}
+                    />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-            <div className="mt-2 text-[10px] text-black/40">
+            <div className="mt-1 text-[10px] text-black/40">
               {saving ? "Saving…" : ""}
             </div>
           </div>
