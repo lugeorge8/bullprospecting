@@ -2,6 +2,30 @@
 
 import { useMemo, useState } from "react";
 
+function toCsvCell(v: string) {
+  const s = (v ?? "").toString();
+  if (/[\t\n\r",]/.test(s)) return `"${s.replace(/"/g, '""')}"`;
+  return s;
+}
+
+function downloadCsv(filename: string, rows: Array<Record<string, string>>) {
+  const headers = Object.keys(rows[0] || {});
+  const csv = [
+    headers.join(","),
+    ...rows.map((r) => headers.map((h) => toCsvCell(r[h] ?? "")).join(",")),
+  ].join("\n");
+
+  const blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+}
+
 import type { ProspectMeta as Meta } from "@/lib/types";
 
 type Row = {
@@ -82,9 +106,35 @@ export function IndividualsTable({
           </div>
         </div>
 
-        <div className="text-sm text-black/60">
-          Showing: <span className="font-semibold text-black">{filtered.length}</span>
-          <span className="text-black/40"> (max 100)</span>
+        <div className="flex items-center gap-3">
+          <div className="text-sm text-black/60">
+            Showing: <span className="font-semibold text-black">{filtered.length}</span>
+            <span className="text-black/40"> (max 100)</span>
+          </div>
+
+          <button
+            type="button"
+            className="rounded-xl border border-black/10 bg-white px-3 py-2 text-xs font-semibold text-black/70 hover:bg-black/5"
+            onClick={() => {
+              const exportRows = filtered.map((r) => ({
+                NAME: r.NAME,
+                TITLE: r.TITLE,
+                CITY: r.CITY,
+                STATE: r.STATEORCOUNTRY,
+                PHONE: r.PHONE,
+                SIGNATUREDATE: r.SIGNATUREDATE,
+                ADVISER: r.__meta?.advisor ?? "",
+                CALLED: (r.__meta?.called ?? false) ? "yes" : "no",
+                SCRUBBED: (r.__meta?.scrubbed ?? false) ? "yes" : "no",
+              }));
+              downloadCsv(
+                `13f-individuals-${advisor || "all"}-${state || "all"}.csv`,
+                exportRows
+              );
+            }}
+          >
+            Download (CSV)
+          </button>
         </div>
       </div>
 
