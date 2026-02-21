@@ -1,0 +1,2006 @@
+{
+  "updatedAt": 1771647078330,
+  "days": 30,
+  "leads": [
+    {
+      "accession": "0001054173-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "1054173",
+      "company": "ALPINE PARTNERS LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1054173/000105417326000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001405713-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "1405713",
+      "company": "Alpine Institutional LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1405713/000140571326000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001421126-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "1421126",
+      "company": "DANBURY SURGICAL CENTER LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1421126/000142112626000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001424943-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "1424943",
+      "company": "ALPINE HERITAGE, L.P.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1424943/000142494326000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001465369-26-000002",
+      "filedAt": "2026-02-20",
+      "cik": "1465369",
+      "company": "General Fusion Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1465369/000146536926000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001487615-26-000004",
+      "filedAt": "2026-02-20",
+      "cik": "1487615",
+      "company": "Nexera Energy Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1487615/000148761526000004/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001491481-26-000003",
+      "filedAt": "2026-02-20",
+      "cik": "1491481",
+      "company": "Solomon Hess Opportunity Fund LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1491481/000149148126000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001509350-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "1509350",
+      "company": "Alpine Heritage II, L.P.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1509350/000150935026000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001522252-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "1522252",
+      "company": "Alpine Heritage Offshore Fund Ltd.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1522252/000152225226000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001543910-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "1543910",
+      "company": "Alpine Dedicated, L.P.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1543910/000154391026000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001558960-26-000003",
+      "filedAt": "2026-02-20",
+      "cik": "1558960",
+      "company": "KNDR Healthcare LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1558960/000155896026000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001638578-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "1638578",
+      "company": "Alpine Heritage Japan Trust",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1638578/000163857826000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001730503-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "1730503",
+      "company": "Alpine Merger Growth, L.P.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1730503/000173050326000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001814554-26-000037",
+      "filedAt": "2026-02-20",
+      "cik": "1735677",
+      "company": "Blink Technologies Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1735677/000181455426000037/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001654954-26-001399",
+      "filedAt": "2026-02-20",
+      "cik": "1778762",
+      "company": "Encore Energy, Inc. (NV)",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1778762/000165495426001399/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001062993-26-001097",
+      "filedAt": "2026-02-20",
+      "cik": "1785476",
+      "company": "King Copper Discovery Corp.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1785476/000106299326001097/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001793407-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "1793407",
+      "company": "St. Cloud Outpatient Surgery, Ltd.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1793407/000179340726000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001798699-26-000003",
+      "filedAt": "2026-02-20",
+      "cik": "1798699",
+      "company": "Solomon Hess Opportunity Fund II LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1798699/000179869926000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001470831-26-000211",
+      "filedAt": "2026-02-20",
+      "cik": "1805517",
+      "company": "Waterford Place Investor LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1805517/000147083126000211/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001907538-26-000004",
+      "filedAt": "2026-02-20",
+      "cik": "1907538",
+      "company": "Darwinium Holdings, Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1907538/000190753826000004/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001933974-26-000003",
+      "filedAt": "2026-02-20",
+      "cik": "1933974",
+      "company": "OVP-GAMALON LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1933974/000193397426000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001231919-26-000182",
+      "filedAt": "2026-02-20",
+      "cik": "1953115",
+      "company": "Tatio, Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1953115/000123191926000182/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001956410-26-000004",
+      "filedAt": "2026-02-20",
+      "cik": "1956410",
+      "company": "J. Peterman Co",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1956410/000195641026000004/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001959321-26-000005",
+      "filedAt": "2026-02-20",
+      "cik": "1959321",
+      "company": "Vitazi.AI, Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1959321/000195932126000005/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002064835-26-000024",
+      "filedAt": "2026-02-20",
+      "cik": "1977971",
+      "company": "Altura Energy Corp.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1977971/000206483526000024/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001994751-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "1994751",
+      "company": "Eight Series Fund LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1994751/000199475126000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001998160-26-000003",
+      "filedAt": "2026-02-20",
+      "cik": "1998160",
+      "company": "Cascada Bend, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1998160/000199816026000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001998162-26-000003",
+      "filedAt": "2026-02-20",
+      "cik": "1998162",
+      "company": "SolTerra OZ Fund II, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1998162/000199816226000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002009770-26-000002",
+      "filedAt": "2026-02-20",
+      "cik": "2009770",
+      "company": "BBG Aerosystems Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2009770/000200977026000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002012452-26-000003",
+      "filedAt": "2026-02-20",
+      "cik": "2012452",
+      "company": "MOKSA.AI INC.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2012452/000201245226000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001470831-26-000210",
+      "filedAt": "2026-02-20",
+      "cik": "2018542",
+      "company": "GMF HC XO II LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2018542/000147083126000210/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002027312-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2027312",
+      "company": "Bergey Family Corp",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2027312/000202731226000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002031159-26-000003",
+      "filedAt": "2026-02-20",
+      "cik": "2031159",
+      "company": "Astoria SPV Pelican Hill LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2031159/000203115926000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001493152-26-007590",
+      "filedAt": "2026-02-20",
+      "cik": "2034520",
+      "company": "GIBO HOLDINGS Ltd",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2034520/000149315226007590/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001493152-26-007591",
+      "filedAt": "2026-02-20",
+      "cik": "2034520",
+      "company": "GIBO HOLDINGS Ltd",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2034520/000149315226007591/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002038626-26-000003",
+      "filedAt": "2026-02-20",
+      "cik": "2038626",
+      "company": "DreamFi, Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2038626/000203862626000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002038626-26-000004",
+      "filedAt": "2026-02-20",
+      "cik": "2038626",
+      "company": "DreamFi, Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2038626/000203862626000004/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002047797-26-000003",
+      "filedAt": "2026-02-20",
+      "cik": "2047797",
+      "company": "Emerald AI, Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2047797/000204779726000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002050516-26-000003",
+      "filedAt": "2026-02-20",
+      "cik": "2050516",
+      "company": "Sunset Vizcaya LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2050516/000205051626000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002051922-26-000002",
+      "filedAt": "2026-02-20",
+      "cik": "2051922",
+      "company": "Aleto Market Neutral Fund LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2051922/000205192226000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002062338-26-000003",
+      "filedAt": "2026-02-20",
+      "cik": "2062338",
+      "company": "Box House Holdings, Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2062338/000206233826000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002063110-26-000004",
+      "filedAt": "2026-02-20",
+      "cik": "2063110",
+      "company": "Ucropit Corp",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2063110/000206311026000004/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002069722-26-000002",
+      "filedAt": "2026-02-20",
+      "cik": "2069722",
+      "company": "Heron Power Electronics Co",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2069722/000206972226000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002074192-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2074192",
+      "company": "Live Area, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2074192/000207419226000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002077445-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2077445",
+      "company": "Capturely Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2077445/000207744526000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002077524-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2077524",
+      "company": "Warburg Pincus Asia Real Estate II, L.P.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2077524/000207752426000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002077525-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2077525",
+      "company": "Warburg Pincus Asia Real Estate II Partners, L.P.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2077525/000207752526000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002082254-26-000002",
+      "filedAt": "2026-02-20",
+      "cik": "2082254",
+      "company": "SE-0611 Fund II, a series of Roll Up Vehicles, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2082254/000208225426000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002086870-26-000002",
+      "filedAt": "2026-02-20",
+      "cik": "2086870",
+      "company": "FE-0710 Fund I, a series of Roll Up Vehicles, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2086870/000208687026000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002087828-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2087828",
+      "company": "Baillie Gifford Institutional Trust",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2087828/000208782826000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002088828-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2088828",
+      "company": "Ainekko, Co.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2088828/000208882826000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002090301-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2090301",
+      "company": "Atlantic Capital Fund LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2090301/000209030126000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002093170-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2093170",
+      "company": "Senca Inc",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2093170/000209317026000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002095342-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2095342",
+      "company": "Lord Abbett Direct Lending Fund LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2095342/000209534226000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002095348-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2095348",
+      "company": "Lord Abbett Direct Lending Rated Note Feeder Fund LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2095348/000209534826000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001012975-26-000192",
+      "filedAt": "2026-02-20",
+      "cik": "2097544",
+      "company": "Dynasty Onward, L.P.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2097544/000101297526000192/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002098307-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2098307",
+      "company": "Atoms VC, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2098307/000209830726000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002098927-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2098927",
+      "company": "TF Growth Investments X LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2098927/000209892726000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002099408-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2099408",
+      "company": "Blueline Capital Parallel Fund I, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2099408/000209940826000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002100316-26-000002",
+      "filedAt": "2026-02-20",
+      "cik": "2100316",
+      "company": "Silent Capital XXVII, a Series of Silent Capital Holdings, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2100316/000210031626000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002101902-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2101902",
+      "company": "FormationQ, Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2101902/000210190226000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002102353-26-000002",
+      "filedAt": "2026-02-20",
+      "cik": "2102353",
+      "company": "BR-1205 Fund I, a series of Exitfund Venture, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2102353/000210235326000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001104659-26-017737",
+      "filedAt": "2026-02-20",
+      "cik": "2102405",
+      "company": "Peak XV Partners India Seed Fund III Ltd",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2102405/000110465926017737/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001104659-26-017738",
+      "filedAt": "2026-02-20",
+      "cik": "2102406",
+      "company": "Peak XV Partners India Venture Fund IX Ltd",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2102406/000110465926017738/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001104659-26-017739",
+      "filedAt": "2026-02-20",
+      "cik": "2102408",
+      "company": "Peak XV Partners APAC Fund II Ltd",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2102408/000110465926017739/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002103150-26-000002",
+      "filedAt": "2026-02-20",
+      "cik": "2103150",
+      "company": "GR-1211 Fund I, a series of Incisive Ventures, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2103150/000210315026000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001012975-26-000193",
+      "filedAt": "2026-02-20",
+      "cik": "2103169",
+      "company": "Dynasty Growth Equity & Co-Invest Access I, L.P.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2103169/000101297526000193/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002104637-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2104637",
+      "company": "1911 Gold Corp",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2104637/000210463726000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002104696-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2104696",
+      "company": "Bay State Capital Fund I LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2104696/000210469626000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002104706-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2104706",
+      "company": "Autopilot Horizon XI LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2104706/000210470626000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002105208-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2105208",
+      "company": "DAP Investors LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2105208/000210520826000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002105235-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2105235",
+      "company": "Fund I, a series of Mene Capital, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2105235/000210523526000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002105377-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2105377",
+      "company": "Blueline Capital F&F Fund I, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2105377/000210537726000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002105926-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2105926",
+      "company": "2220 Stone Crossing, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2105926/000210592626000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002088320-26-000002",
+      "filedAt": "2026-02-20",
+      "cik": "2107462",
+      "company": "42 Private Equity Fund II, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2107462/000208832026000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002088320-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2107463",
+      "company": "42 Private Equity Fund I, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2107463/000208832026000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002107688-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2107688",
+      "company": "VCF Nexus Co-Investor Holdings, L.P.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2107688/000210768826000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002107950-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2107950",
+      "company": "RAGA PRIP II ACCESS LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2107950/000210795026000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002108077-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2108077",
+      "company": "CA-0113 Fund II, a series of Good News Ventures Fund, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2108077/000210807726000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001231919-26-000178",
+      "filedAt": "2026-02-20",
+      "cik": "2108223",
+      "company": "Even One Ventures Fund I LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2108223/000123191926000178/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002108938-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2108938",
+      "company": "FO-0115 Fund II, a series of Cool Climate Collective, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2108938/000210893826000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001012975-26-000191",
+      "filedAt": "2026-02-20",
+      "cik": "2109090",
+      "company": "Q Access III - 71 West, L.P.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2109090/000101297526000191/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002109383-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2109383",
+      "company": "Collab II - W G, L.P.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2109383/000210938326000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002109445-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2109445",
+      "company": "Lightrider Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2109445/000210944526000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001231919-26-000180",
+      "filedAt": "2026-02-20",
+      "cik": "2109580",
+      "company": "Even One Ventures Fund II LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2109580/000123191926000180/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002109687-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2109687",
+      "company": "RESONANT THREESTONE ACCESS I, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2109687/000210968726000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002110093-26-000002",
+      "filedAt": "2026-02-20",
+      "cik": "2110093",
+      "company": "Spotlight Media Labs Inc",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2110093/000211009326000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002110194-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2110194",
+      "company": "8VC AI Fund VI, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2110194/000211019426000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002110617-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2110617",
+      "company": "MW LSV Kalshi, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2110617/000211061726000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002110735-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2110735",
+      "company": "MW LSV Polymarket, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2110735/000211073526000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002110922-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2110922",
+      "company": "Haply Robotics inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2110922/000211092226000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002111028-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2111028",
+      "company": "Old Brookewood Capital LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111028/000211102826000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002111195-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2111195",
+      "company": "EWM Private Equity Access I, L.P.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111195/000211119526000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002111202-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2111202",
+      "company": "One Brick Select Private Real Estate 2025, L.P.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111202/000211120226000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0000945621-26-000375",
+      "filedAt": "2026-02-20",
+      "cik": "2111331",
+      "company": "Rochefort Crucible Co-Investment Fund LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111331/000094562126000375/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002111353-26-000002",
+      "filedAt": "2026-02-20",
+      "cik": "2111353",
+      "company": "Big Shot Pictures Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111353/000211135326000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002111411-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2111411",
+      "company": "8VC AI Fund VI-A, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111411/000211141126000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002111511-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2111511",
+      "company": "PH Fund II, a series of Heron Rock Nest Al Access, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111511/000211151126000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002111523-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2111523",
+      "company": "Gutter NYS SSBCI Fund II, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111523/000211152326000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002111545-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2111545",
+      "company": "IgniteIR Fund 2 LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111545/000211154526000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002111550-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2111550",
+      "company": "Ignite Blitzscaling Fund 2 LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111550/000211155026000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002111570-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2111570",
+      "company": "Accumulator Liquidity IV Zhayyq LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111570/000211157026000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0000905148-26-000964",
+      "filedAt": "2026-02-20",
+      "cik": "2111713",
+      "company": "House Fund Breakout XII Enduring, L.P.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111713/000090514826000964/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002111732-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2111732",
+      "company": "CM 70 Spruce LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111732/000211173226000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002111747-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2111747",
+      "company": "Natives The Series LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111747/000211174726000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002111847-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2111847",
+      "company": "InDesign Products Co.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111847/000211184726000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002111848-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2111848",
+      "company": "NU-0204 Fund I, a series of Jolt VC, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111848/000211184826000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002111880-26-000002",
+      "filedAt": "2026-02-20",
+      "cik": "2111880",
+      "company": "Fellows Fund III, L.P.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111880/000211188026000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002111960-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2111960",
+      "company": "Merion Multifamily Fund IV, L.P.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111960/000211196026000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002111961-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2111961",
+      "company": "Merion Multifamily Fund IV Capital Partner, L.P.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111961/000211196126000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002111964-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2111964",
+      "company": "Merion Black Bear, L.P.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111964/000211196426000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002111989-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2111989",
+      "company": "Man Systematic Global Ex US Alpha 130/30 (Cayman)",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2111989/000211198926000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112052-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112052",
+      "company": "LI 2026, A SERIES OF DENVER VENTURES LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112052/000211205226000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112106-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112106",
+      "company": "Ravelin Capital II, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112106/000211210626000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112110-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112110",
+      "company": "Westminster Self Storage LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112110/000211211026000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112135-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112135",
+      "company": "Axiom Tosa Village LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112135/000211213526000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112234-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112234",
+      "company": "Erebor a Series of Shahidi Tactic Partners LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112234/000211223426000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112243-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112243",
+      "company": "DollarBull Aalo Opportunity I a Series of CGF2021 LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112243/000211224326000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112255-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112255",
+      "company": "Nexus Bear Lake, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112255/000211225526000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112358-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112358",
+      "company": "CC ANTH II a Series of CGF2021 LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112358/000211235826000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112375-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112375",
+      "company": "FirmFarm Holdings, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112375/000211237526000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112381-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112381",
+      "company": "Redstone Wealth Management Co., Ltd.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112381/000211238126000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001123292-26-000220",
+      "filedAt": "2026-02-20",
+      "cik": "2112386",
+      "company": "Gilgamesh Pharma PML SPV 1 LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112386/000112329226000220/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112390-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112390",
+      "company": "Debbie a Series of GoodPaper Ventures Funds LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112390/000211239026000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112393-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112393",
+      "company": "Artist Inclusive Jan 2026 a Series of CGF2021 LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112393/000211239326000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112399-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112399",
+      "company": "Enterprise AI II Jan 2026 a Series of CGF2021 LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112399/000211239926000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112400-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112400",
+      "company": "Dorada Energy Fund I, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112400/000211240026000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112421-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112421",
+      "company": "Odin Dynamics Jan 2026 a Series of CGF2021 LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112421/000211242126000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112422-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112422",
+      "company": "Anthropic Magnitude Jan 2026 a Series of CGF2021 LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112422/000211242226000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112427-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112427",
+      "company": "PCVP Varda Series D a Series of CGF2021 LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112427/000211242726000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0000919574-26-001289",
+      "filedAt": "2026-02-20",
+      "cik": "2112434",
+      "company": "Vor Private Opportunities SPC - Segregated Portfolio Six",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112434/000091957426001289/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112453-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112453",
+      "company": "ENDO ILIAD 2025 SPV LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112453/000211245326000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112462-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112462",
+      "company": "Atlas Investment Ltd",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112462/000211246226000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112488-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112488",
+      "company": "YwinCap Ltd",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112488/000211248826000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112496-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112496",
+      "company": "Aquantix Technologies LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112496/000211249626000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112537-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112537",
+      "company": "Pari Passu X a Series of Pari Passu Master II LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112537/000211253726000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112543-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112543",
+      "company": "YEAR ZERO FUND I A SERIES OF YEAR ZERO VENTURES GROUP LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112543/000211254326000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112565-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112565",
+      "company": "JVEC Emerald Crest 2026 Fund LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112565/000211256526000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0000905148-26-000960",
+      "filedAt": "2026-02-20",
+      "cik": "2112571",
+      "company": "CastleKnight Access Fund Ltd.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112571/000090514826000960/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112607-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112607",
+      "company": "IQ Finance, Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112607/000211260726000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112610-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112610",
+      "company": "Financial Agency LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112610/000211261026000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112655-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112655",
+      "company": "Penstock Equity II LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112655/000211265526000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112659-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112659",
+      "company": "ILIAD BIOTECHNOLOGIES, INC.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112659/000211265926000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112672-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112672",
+      "company": "Vanarth Systematic Alpha Fund L.P.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112672/000211267226000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112695-26-000002",
+      "filedAt": "2026-02-20",
+      "cik": "2112695",
+      "company": "CodeGig, Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112695/000211269526000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001062993-26-001098",
+      "filedAt": "2026-02-20",
+      "cik": "2112706",
+      "company": "Fredonia Mining Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112706/000106299326001098/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112722-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112722",
+      "company": "Cosmos Co-Invest I LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112722/000211272226000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112723-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112723",
+      "company": "Going Co.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112723/000211272326000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112737-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112737",
+      "company": "JVEC East Dallas Retail LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112737/000211273726000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112739-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "2112739",
+      "company": "ISLAND FACILITY SERVICES HOLDINGS, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2112739/000211273926000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0000803643-26-000001",
+      "filedAt": "2026-02-20",
+      "cik": "803643",
+      "company": "ALPINE ASSOCIATES, A LIMITED PARTNERSHIP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/803643/000080364326000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0000906791-26-000039",
+      "filedAt": "2026-02-20",
+      "cik": "906205",
+      "company": "LINCOLN BANCORP /IA/",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/906205/000090679126000039/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001463508-26-000001",
+      "filedAt": "2026-02-19",
+      "cik": "1463508",
+      "company": "Aloha Surgical Center, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1463508/000146350826000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001548999-26-000003",
+      "filedAt": "2026-02-19",
+      "cik": "1548999",
+      "company": "RedCritter Corp.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1548999/000154899926000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001178913-26-000573",
+      "filedAt": "2026-02-19",
+      "cik": "1574565",
+      "company": "Evogene Ltd.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1574565/000117891326000573/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001610870-26-000002",
+      "filedAt": "2026-02-19",
+      "cik": "1610870",
+      "company": "Q30 Sports Science, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1610870/000161087026000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001631296-26-000001",
+      "filedAt": "2026-02-19",
+      "cik": "1631296",
+      "company": "Caro-Kann Capital Fund LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1631296/000163129626000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001631996-26-000001",
+      "filedAt": "2026-02-19",
+      "cik": "1631996",
+      "company": "Caro-Kann Capital Offshore Fund Ltd.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1631996/000163199626000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0000892251-26-000041",
+      "filedAt": "2026-02-19",
+      "cik": "1653268",
+      "company": "Trinity Guardion, Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1653268/000089225126000041/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001675644-26-000009",
+      "filedAt": "2026-02-19",
+      "cik": "1675644",
+      "company": "FVCBankcorp, Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1675644/000167564426000009/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0000891836-26-000029",
+      "filedAt": "2026-02-19",
+      "cik": "1688431",
+      "company": "CRB Group, Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1688431/000089183626000029/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001710691-26-000003",
+      "filedAt": "2026-02-19",
+      "cik": "1710691",
+      "company": "Chowbus, Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1710691/000171069126000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0000891839-26-000061",
+      "filedAt": "2026-02-19",
+      "cik": "1731563",
+      "company": "Viridi Parente, Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1731563/000089183926000061/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001733942-26-000001",
+      "filedAt": "2026-02-19",
+      "cik": "1733942",
+      "company": "Western Connecticut Orthopedic Surgical Center, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1733942/000173394226000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001140361-26-006188",
+      "filedAt": "2026-02-19",
+      "cik": "1754481",
+      "company": "Bancar Technologies Ltd",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1754481/000114036126006188/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001782505-26-000004",
+      "filedAt": "2026-02-19",
+      "cik": "1782505",
+      "company": "CENTRL J Street LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1782505/000178250526000004/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001784826-26-000003",
+      "filedAt": "2026-02-19",
+      "cik": "1784826",
+      "company": "Culture Fresh Foods, Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1784826/000178482626000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001814834-26-000003",
+      "filedAt": "2026-02-19",
+      "cik": "1814834",
+      "company": "SGI Timpanogos Fund, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1814834/000181483426000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002112249-26-000002",
+      "filedAt": "2026-02-19",
+      "cik": "1819319",
+      "company": "IMAGEN DENTAL PARTNERS, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1819319/000211224926000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001062993-26-001073",
+      "filedAt": "2026-02-19",
+      "cik": "1829809",
+      "company": "Lux Metals Corp.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1829809/000106299326001073/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001853519-26-000001",
+      "filedAt": "2026-02-19",
+      "cik": "1853519",
+      "company": "KLOWEN BRACES, INC.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1853519/000185351926000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001882325-26-000003",
+      "filedAt": "2026-02-19",
+      "cik": "1882325",
+      "company": "Naborforce, Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1882325/000188232526000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0000935836-26-000122",
+      "filedAt": "2026-02-19",
+      "cik": "1921207",
+      "company": "Hyperframe Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1921207/000093583626000122/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001938434-26-000001",
+      "filedAt": "2026-02-19",
+      "cik": "1938434",
+      "company": "BlackRock Systematic Total Alpha Fund LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1938434/000193843426000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001062993-26-001072",
+      "filedAt": "2026-02-19",
+      "cik": "1958389",
+      "company": "Hydreight Technologies Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1958389/000106299326001072/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001966649-26-000001",
+      "filedAt": "2026-02-19",
+      "cik": "1966649",
+      "company": "Akava Therapeutics Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1966649/000196664926000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001968061-26-000001",
+      "filedAt": "2026-02-19",
+      "cik": "1968061",
+      "company": "WHCG, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1968061/000196806126000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001968326-26-000003",
+      "filedAt": "2026-02-19",
+      "cik": "1968326",
+      "company": "Olyra Foods Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1968326/000196832626000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001980576-26-000003",
+      "filedAt": "2026-02-19",
+      "cik": "1980576",
+      "company": "Buzze Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1980576/000198057626000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001986325-26-000001",
+      "filedAt": "2026-02-19",
+      "cik": "1986325",
+      "company": "Hook Media, Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1986325/000198632526000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001991526-26-000002",
+      "filedAt": "2026-02-19",
+      "cik": "1991526",
+      "company": "NED Medical, Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1991526/000199152626000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001470831-26-000198",
+      "filedAt": "2026-02-19",
+      "cik": "1996053",
+      "company": "Develo Inc.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/1996053/000147083126000198/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002001445-26-000002",
+      "filedAt": "2026-02-19",
+      "cik": "2001445",
+      "company": "Voyage Comics & Publishing LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2001445/000200144526000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001470831-26-000199",
+      "filedAt": "2026-02-19",
+      "cik": "2009626",
+      "company": "Connect Ventures Flagship I, L.P.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2009626/000147083126000199/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002010512-26-000003",
+      "filedAt": "2026-02-19",
+      "cik": "2010512",
+      "company": "S2C REIT OP, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2010512/000201051226000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002036387-26-000002",
+      "filedAt": "2026-02-19",
+      "cik": "2036387",
+      "company": "Kadia Health Corp.",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2036387/000203638726000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002039639-26-000003",
+      "filedAt": "2026-02-19",
+      "cik": "2039639",
+      "company": "HPA 2024 D Investment, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2039639/000203963926000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001042167-26-000009",
+      "filedAt": "2026-02-19",
+      "cik": "2056180",
+      "company": "F Street Maysville, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2056180/000104216726000009/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002056599-26-000003",
+      "filedAt": "2026-02-19",
+      "cik": "2056599",
+      "company": "Hartmann & Benz Inc",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2056599/000205659926000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002058556-26-000003",
+      "filedAt": "2026-02-19",
+      "cik": "2058556",
+      "company": "Unity Growth Series Fund LLC - Fund 018",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2058556/000205855626000003/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002068934-26-000001",
+      "filedAt": "2026-02-19",
+      "cik": "2068934",
+      "company": "Tower 3 Investments, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2068934/000206893426000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0001042167-26-000008",
+      "filedAt": "2026-02-19",
+      "cik": "2069200",
+      "company": "F Street Fort Madison, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2069200/000104216726000008/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002076875-26-000002",
+      "filedAt": "2026-02-19",
+      "cik": "2076875",
+      "company": "Unity Growth Series Fund LLC - Fund 028",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2076875/000207687526000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002079766-26-000001",
+      "filedAt": "2026-02-19",
+      "cik": "2079766",
+      "company": "Kismet Cardinal LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2079766/000207976626000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002082387-26-000002",
+      "filedAt": "2026-02-19",
+      "cik": "2082387",
+      "company": "AI-0430 Fund I, a series of Roll Up Vehicles, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2082387/000208238726000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002083378-26-000002",
+      "filedAt": "2026-02-19",
+      "cik": "2083378",
+      "company": "GE-0618 Fund I, a series of AX-RN-Funds, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2083378/000208337826000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002080612-26-000007",
+      "filedAt": "2026-02-19",
+      "cik": "2084983",
+      "company": "LB Baseball Growth Partners, LLC",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2084983/000208061226000007/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002085668-26-000002",
+      "filedAt": "2026-02-19",
+      "cik": "2085668",
+      "company": "Alexander-TE-0729 Fund I, a series of AngelList Funds 2025, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2085668/000208566826000002/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002088050-26-000001",
+      "filedAt": "2026-02-19",
+      "cik": "2088050",
+      "company": "Genesis Co-Invest LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2088050/000208805026000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "accession": "0002088976-26-000002",
+      "filedAt": "2026-02-19",
+      "cik": "2088976",
+      "company": "FR-0807 Fund I, a series of Roll Up Vehicles, LP",
+      "state": "",
+      "city": "",
+      "primaryDoc": "xslFormDX01/primary_doc.xml",
+      "secUrl": "https://www.sec.gov/Archives/edgar/data/2088976/000208897626000002/xslFormDX01/primary_doc.xml"
+    }
+  ]
+}

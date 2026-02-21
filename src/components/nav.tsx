@@ -8,7 +8,7 @@ const activeCls =
 export function TopNav({
   active,
 }: {
-  active?: "home" | "ca" | "ind" | "prospecting";
+  active?: "home" | "ca" | "ind" | "prospecting" | "formd";
 }) {
   return (
     <header className="border-b border-black/10 bg-white">
@@ -38,6 +38,12 @@ export function TopNav({
             className={active === "prospecting" ? activeCls : base}
           >
             Prospecting
+          </Link>
+          <Link
+            href="/form-d"
+            className={active === "formd" ? activeCls : base}
+          >
+            Form D
           </Link>
         </nav>
       </div>
