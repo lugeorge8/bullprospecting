@@ -5,7 +5,11 @@ const base =
 const activeCls =
   "rounded-xl bg-black px-4 py-2 text-sm font-semibold text-white";
 
-export function TopNav({ active }: { active?: "home" | "ca" | "ind" }) {
+export function TopNav({
+  active,
+}: {
+  active?: "home" | "ca" | "ind" | "prospecting";
+}) {
   return (
     <header className="border-b border-black/10 bg-white">
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-6 px-6 py-4">
@@ -28,6 +32,12 @@ export function TopNav({ active }: { active?: "home" | "ca" | "ind" }) {
             className={active === "ind" ? activeCls : base}
           >
             13F Individuals
+          </Link>
+          <Link
+            href="/prospecting"
+            className={active === "prospecting" ? activeCls : base}
+          >
+            Prospecting
           </Link>
         </nav>
       </div>
