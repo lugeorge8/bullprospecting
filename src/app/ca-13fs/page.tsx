@@ -82,8 +82,7 @@ export default function Ca13fsPage() {
               <thead className="bg-black/5 text-left">
                 <tr>
                   <th className="px-3 py-3 font-semibold">Adviser</th>
-                  <th className="px-3 py-3 font-semibold">Called</th>
-                  <th className="px-3 py-3 font-semibold">Scrubbed</th>
+                  <th className="px-3 py-3 font-semibold">Status</th>
                   <th className="px-4 py-3 font-semibold">Manager</th>
                   <th className="px-4 py-3 font-semibold">City</th>
                   <th className="px-4 py-3 font-semibold">Quarter</th>

@@ -70,51 +70,64 @@ export function ProspectingControls({
         </div>
       </td>
 
-      {/* Called toggle */}
+      {/* Status dropdown */}
       <td className="px-3 py-3">
-        <button
-          type="button"
-          className={
-            "rounded-xl px-3 py-2 text-xs font-semibold transition " +
-            (called
-              ? "bg-emerald-600 text-white hover:bg-emerald-700"
-              : "border border-black/10 bg-white text-black/70 hover:bg-black/5")
-          }
-          onClick={async () => {
-            const next = !called;
-            setCalled(next);
-            setSaving(true);
-            try {
-              await updateMeta(rowKey, { called: next });
-            } finally {
-              setSaving(false);
-            }
-          }}
-        >
-          {called ? "Called" : "Mark called"}
-        </button>
-      </td>
+        <details className="group">
+          <summary className="cursor-pointer list-none rounded-xl border border-black/10 bg-white px-3 py-2 text-xs font-semibold text-black/70 hover:bg-black/5">
+            <span>Status</span>
+            <span className="ml-2 text-[10px] font-semibold">
+              {called ? "• Called" : "• Not called"}
+              {scrubbed ? " • Scrubbed" : ""}
+            </span>
+          </summary>
 
-      {/* Scrubbed checkbox */}
-      <td className="px-3 py-3">
-        <label className="inline-flex items-center gap-2 text-xs text-black/70">
-          <input
-            type="checkbox"
-            className="h-4 w-4 rounded border-black/20"
-            checked={scrubbed}
-            onChange={async (e) => {
-              const next = e.target.checked;
-              setScrubbed(next);
-              setSaving(true);
-              try {
-                await updateMeta(rowKey, { scrubbed: next });
-              } finally {
-                setSaving(false);
+          <div className="mt-2 w-56 rounded-2xl border border-black/10 bg-white p-3 shadow-sm">
+            <button
+              type="button"
+              className={
+                "w-full rounded-xl px-3 py-2 text-xs font-semibold transition " +
+                (called
+                  ? "bg-emerald-600 text-white hover:bg-emerald-700"
+                  : "border border-black/10 bg-white text-black/70 hover:bg-black/5")
               }
-            }}
-          />
-          Scrubbed
-        </label>
+              onClick={async () => {
+                const next = !called;
+                setCalled(next);
+                setSaving(true);
+                try {
+                  await updateMeta(rowKey, { called: next });
+                } finally {
+                  setSaving(false);
+                }
+              }}
+            >
+              {called ? "Called" : "Mark called"}
+            </button>
+
+            <label className="mt-3 flex items-center gap-2 text-xs text-black/70">
+              <input
+                type="checkbox"
+                className="h-4 w-4 rounded border-black/20"
+                checked={scrubbed}
+                onChange={async (e) => {
+                  const next = e.target.checked;
+                  setScrubbed(next);
+                  setSaving(true);
+                  try {
+                    await updateMeta(rowKey, { scrubbed: next });
+                  } finally {
+                    setSaving(false);
+                  }
+                }}
+              />
+              Scrubbed
+            </label>
+
+            <div className="mt-2 text-[10px] text-black/40">
+              {saving ? "Saving…" : ""}
+            </div>
+          </div>
+        </details>
       </td>
     </>
   );

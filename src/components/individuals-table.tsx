@@ -33,7 +33,11 @@ export function IndividualsTable({
 
   const filtered = useMemo(() => {
     let base = !state ? rows : rows.filter((r) => r.STATEORCOUNTRY === state);
-    if (advisor) base = base.filter((r) => (r.__meta?.advisor ?? "") === advisor);
+    if (advisor === "__unassigned") {
+      base = base.filter((r) => !(r.__meta?.advisor ?? ""));
+    } else if (advisor) {
+      base = base.filter((r) => (r.__meta?.advisor ?? "") === advisor);
+    }
     return base.slice(0, 100);
   }, [rows, state, advisor]);
 
@@ -67,6 +71,7 @@ export function IndividualsTable({
                 onChange={(e) => setAdvisor(e.target.value)}
               >
                 <option value="">All</option>
+                <option value="__unassigned">Unassigned</option>
                 {advisers.filter(Boolean).map((a) => (
                   <option key={a} value={a}>
                     {a}
@@ -89,8 +94,7 @@ export function IndividualsTable({
             <thead className="bg-black/5 text-left">
               <tr>
                 <th className="px-3 py-3 font-semibold">Adviser</th>
-                <th className="px-3 py-3 font-semibold">Called</th>
-                <th className="px-3 py-3 font-semibold">Scrubbed</th>
+                <th className="px-3 py-3 font-semibold">Status</th>
                 <th className="px-4 py-3 font-semibold">Name</th>
                 <th className="px-4 py-3 font-semibold">Title</th>
                 <th className="px-4 py-3 font-semibold">City</th>
