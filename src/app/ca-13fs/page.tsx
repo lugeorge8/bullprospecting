@@ -22,6 +22,8 @@ function parseTsv(tsv: string): Row[] {
   return rows;
 }
 
+import { TopNav } from "@/components/nav";
+
 export default function Ca13fsPage() {
   const filePath = path.join(process.cwd(), "data", "13f-submissions.tsv");
   const tsv = fs.readFileSync(filePath, "utf8");
@@ -43,7 +45,10 @@ export default function Ca13fsPage() {
   });
 
   return (
-    <main className="mx-auto w-full max-w-6xl p-6">
+    <div className="min-h-screen bg-white text-black">
+      <TopNav active="ca" />
+
+      <main className="mx-auto w-full max-w-6xl p-6">
       <div className="mb-6">
         <h1 className="text-3xl font-semibold tracking-tight">CA 13Fs</h1>
         <p className="mt-2 text-sm text-black/70">
@@ -103,6 +108,7 @@ export default function Ca13fsPage() {
           </table>
         </div>
       </div>
-    </main>
+      </main>
+    </div>
   );
 }
